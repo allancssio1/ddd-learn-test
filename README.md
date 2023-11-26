@@ -1,10 +1,5 @@
 ## Domain
   ### Product
-  ### Limit Quantity
-  - para cada tipo de produto um limite de controle
-  ### hitoric product
-  ### buy orders
-  ### sell tendencies
   ### integration
   - integrar com fornecedores.
 
@@ -19,4 +14,9 @@
     - lucro por produto
     - mapear datas de periodos e trazer os produtos nesse período.
   ### ver prazos de entregas das novas remessas.
-  - data prevista para chegada da remessa.
+    - data prevista para chegada da remessa.
+  ### Limit Quantity
+    - para cada tipo de produto um limite de controle
+  ### hitoric product
+  ### buy orders
+  ### sell tendencies
