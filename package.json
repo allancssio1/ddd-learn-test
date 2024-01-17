@@ -1,0 +1,16 @@
+{
+  "name": "ddd-learn-test",
+  "version": "1.0.0",
+  "description": "- integrar com fornecedores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
