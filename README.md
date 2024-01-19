@@ -1,6 +1,6 @@
 ## Domain
   ### Product
-    - id number
+    - id string
     - code === id || usuário preenche
     - value
     - color

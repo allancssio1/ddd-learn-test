@@ -1,3 +1,8 @@
+import { randomUUID } from 'crypto'
+
 export class BuyOrder {
-  constructor() {}
+  public id: string
+  constructor(id?: string) {
+    this.id = id ?? randomUUID()
+  }
 }
