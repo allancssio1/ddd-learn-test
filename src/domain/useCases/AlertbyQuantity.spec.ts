@@ -13,8 +13,6 @@ describe('Alert Product Quantity', () => {
       minQuantity: 5,
     })
 
-    const product = products[0]
-
     const sut = new AlertByQuantityUseCase()
 
     const alertProductQuantity = sut.execute({
