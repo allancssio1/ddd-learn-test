@@ -1,3 +1,3 @@
-export class FindProduct {
-  constructor() {}
+export class FindProductUseCase {
+  execute() {}
 }

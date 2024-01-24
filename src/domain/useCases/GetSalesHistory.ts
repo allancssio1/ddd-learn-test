@@ -1,3 +1,3 @@
-export class GetSalesHistory {
-  constructor() {}
+export class GetSalesHistoryUseCase {
+  execute() {}
 }
