@@ -1,4 +1,5 @@
 import { Product } from '../entities/Product'
+import { Slug } from '../entities/valueObjects/Slug'
 
 interface CreateProductUseCaseRequest {
   title: string
@@ -12,6 +13,7 @@ export class CreateProductUseCase {
       title,
       quantity,
       minQuantity,
+      slug: Slug.createSlugFromText(title),
     })
 
     return product

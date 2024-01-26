@@ -6,11 +6,12 @@ describe('Create Product', () => {
     const createProductUseCase = new CreateProductUseCase()
 
     const product = await createProductUseCase.execute({
-      title: 'Coffee',
+      title: 'Coffee with milk',
       quantity: 20,
       minQuantity: 5,
     })
 
-    expect(product.title).toEqual('Coffee')
+    expect(product.title).toEqual('Coffee with milk')
+    expect(product.slug.value).toEqual('coffee-with-milk')
   })
 })

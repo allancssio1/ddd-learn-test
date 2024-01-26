@@ -1,8 +1,5 @@
-import { randomUUID } from 'crypto'
+import { Entity } from '../../core/entities/Entity'
 
-export class BuyOrder {
-  public id: string
-  constructor(id?: string) {
-    this.id = id ?? randomUUID()
-  }
-}
+interface BuyOrderProps {}
+
+export class BuyOrder extends Entity<BuyOrderProps> {}
