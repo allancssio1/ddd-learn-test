@@ -5,7 +5,7 @@ import { SalesRepository } from '../repositories/salesRepository'
 export class GetSalesHistoryUseCase {
   constructor(private salesRepository: SalesRepository) {}
   async execute(product?: Product) {
-    let products = []
+    let products: Product[] = []
     if (product) {
       products = await this.salesRepository.findMany(product)
     }

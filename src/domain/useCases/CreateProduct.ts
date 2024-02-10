@@ -9,7 +9,7 @@ interface CreateProductUseCaseRequest {
 
 export class CreateProductUseCase {
   execute({ title, quantity, minQuantity }: CreateProductUseCaseRequest) {
-    const product = new Product({
+    const product = Product.create({
       title,
       quantity,
       minQuantity,
